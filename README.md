@@ -33,3 +33,10 @@ To run this project locally, ensure you have Python 3.8+ installed, then follow 
    For the Notebook: Run jupyter notebook and open mammal_sleep.ipynb.
    For the Script: Run python mammal_sleep.py directly in your terminal.
 
+  5. 📈 Results: MAE & Biological Meaning
+ Through validation, the Decision Tree with 5 leaf nodes achieved the best performance:
+    Initial MAE: 3.52 hours
+    Optimized MAE: 3.01 hours
+
+Interpretation: On average, the model predicts a mammal's sleep within ±3 hours. The results suggest that 'Danger' and 'Gestation' are often more powerful predictors than size alone, supporting the theory that sleep is an evolutionary survival strategy.
+
