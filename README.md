@@ -34,9 +34,14 @@ To run this project locally, ensure you have Python 3.8+ installed, then follow 
 
    For the Notebook: Run jupyter notebook and open mammal_sleep.ipynb.
    For the Script: Run python mammal_sleep.py directly in your terminal.
+
+##🧠Methodology: The "Why"
+
+Log Transformation: Because mammalian weights range from 0.01kg (shrew) to   6,000kg (elephant), raw data creates extreme outliers. I applied np.log() to linearize these relationships, ensuring the model treats a 10% weight increase equally across all species sizes.
+Decision Trees: I used DecisionTreeRegressor to capture non-linear interactions, such as how 'Danger Index' might override 'Body Weight' in high-risk environments.
    
    5. 📈 Results: MAE & Biological Meaning
- Through validation, the Decision Tree with 5 leaf nodes achieved the best performance:
+ Through validation, the Decision Tree with 5 leaf nodes achieved the best  performance:
     Initial MAE: 3.52 hours
     Optimized MAE: 3.01 hours
 
