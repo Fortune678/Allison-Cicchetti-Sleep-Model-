@@ -9,16 +9,33 @@ The model compares **Multiple Linear Regression** and **Decision Tree Regressors
 The data used in this project was sourced from the **[Sleep Dataset on Kaggle](https://www.kaggle.com)**. 
 > **Note to Viewers:** If you're interested in exploring this data further or running your own kernels, I highly recommend using **[Kaggle's Notebook environment](https://www.kaggle.com)**, which provides excellent built-in tools for data visualization and community-driven insights.
 
-## 🛠️ Installation & Setup
-To run this project locally, ensure you have Python installed, then follow these steps:
+ 🛠️ Installation & Setup
+To run this project locally, ensure you have Python 3.8+ installed, then follow these steps:
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com
-2. Install required libraries:
-pip install pandas numpy scikit-learn
-    Run the script:
-    Open the .ipynb file in Jupyter Notebook or run the .py file in your terminal.
+    Clone the repository:
+    bash
+
+    git clone https://github.com
+    cd Mammal-Sleep-Predictor
+
+    Use code with caution.
+    Create a Virtual Environment (Recommended):
+    This keeps your project dependencies isolated.
+    bash
+
+    python -m venv venv
+    source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+    Use code with caution.
+    Install all dependencies in one go:
+    bash
+
+    pip install pandas numpy scikit-learn jupyter
+
+    Use code with caution.
+    Launch the analysis:
+        For the Notebook: Run jupyter notebook and open mammal_sleep.ipynb.
+        For the Script: Run python mammal_sleep.py directly in your terminal.
 
 🧠 Key Findings
 
